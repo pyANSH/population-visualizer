@@ -91,37 +91,37 @@ void draw() { //Method called every few milliseconds which updates the display
       }
 
       if(populationNum < 10000){
-        state.setFill(color(200, 247, 197));
+        state.setFill(color(255,255,255));
       }
       else if(populationNum < 50000){
-        state.setFill(color(154, 215, 150));
+        state.setFill(color(247,252,186));
       }
       else if(populationNum < 100000){
-        state.setFill(color(126, 199, 121));
+        state.setFill(color(200, 234, 181));
       }
       else if(populationNum < 250000){
-        state.setFill(color(100, 187, 94));
+        state.setFill(color(128, 206, 188));
       }
       else if(populationNum < 500000){
-        state.setFill(color(71, 159, 65));
+        state.setFill(color(128, 206, 188));
       }
       else if(populationNum < 1000000){
-        state.setFill(color(51, 143, 45));
+        state.setFill(color(128, 206, 188));
       }
       else if(populationNum < 2500000){
-        state.setFill(color(42, 133, 36));
+        state.setFill(color(63,183,197));
       }
       else if(populationNum < 5000000){
-        state.setFill(color(26, 115, 21));
+        state.setFill(color(23,146,193));
       }
       else if(populationNum < 10000000){
-        state.setFill(color(14, 96, 9));
+        state.setFill(color(28,94,169));
       }
       else if(populationNum < 25000000){
-        state.setFill(color(8, 79, 3));
+        state.setFill(color(32,49,149));
       }
       else{
-        state.setFill(color(4, 54, 1));
+        state.setFill(color(2,23,87));
       }
     }
 
